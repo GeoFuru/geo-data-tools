@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated data
+data/outputs/*
+
+# Input data
+data/inputs/*
+
+# Keep directory structure
+!data/inputs/.gitkeep
+!data/outputs/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+
+# Environment variables
+.env
